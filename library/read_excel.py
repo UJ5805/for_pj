@@ -63,11 +63,11 @@ def do_someing(df) -> list:
             Frequency = Frequency + 1  # 行數+1
         else:
             break
-    return moveX_list, moveY_list
+    return moveX_list, moveY_list, 123
 
 
 if __name__ == '__main__':
     df = pd.read_excel(r'./352topb.xls')
-    moveX_list, moveY_list = do_someing(df)
+    moveX_list, moveY_list, t = do_someing(df)
 
 #
