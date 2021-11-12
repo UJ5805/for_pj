@@ -46,9 +46,9 @@ def do_someing(df) -> list:
             moveY = float(Yaxis) - BY  # Y軸位移量=目標位置-當前位置
             moveX_list.append(moveX)
             moveY_list.append(moveY)
-            bottom = (moveX**2 + moveY**2)**0.5  # 計算斜邊長 e板-b板
-            BX = Xaxis  # 將目標位置更新為當前位置
-            BY = Yaxis
+            #bottom = (moveX**2 + moveY**2)**0.5  # 計算斜邊長 e板-b板
+            #BX = Xaxis  # 將目標位置更新為當前位置
+            #BY = Yaxis
             # print(bottom)
             # print("本次X軸位移", moveX)
             # print("本次Y軸位移", moveY)
